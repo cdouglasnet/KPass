@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.aglezllinas.kpass</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>0E061607-446F-42B1-A61D-7141645CC099</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>72E9F265-FF7B-474C-9A9C-A18348E3C9D2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>18273CFC-8C6D-497B-BAC6-1983953354D0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>72E9F265-FF7B-474C-9A9C-A18348E3C9D2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2758F511-8CD2-4755-AA69-10159D17EC90</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E35451E7-54B1-4C83-8C9E-F9B96B0C3016</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>283F690A-36C6-4B64-A552-EA75B23FA3EF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>80C0730D-9C4C-4D46-8AC5-EE827B744F5B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2A5D5B0F-63B4-47A8-8BD4-2C9D58576D59</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>4052074F-1000-43E3-86F0-E5A618169D2E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>99246AFC-B7C5-4DFF-9BF1-9BBE6589F303</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>57089C57-FE2F-46CE-B8EF-AA89DE97018E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B99B170E-3A3C-44EC-A9B7-D6CE6E209DB7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6305EDB2-9809-4074-B448-ACA6C5A96BD4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A8FEB5EC-A1B2-4490-BE46-DF67E9D75FFB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>72E9F265-FF7B-474C-9A9C-A18348E3C9D2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75198F5E-917B-4A6C-BF0C-091140474506</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>2758F511-8CD2-4755-AA69-10159D17EC90</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy TOTP Directly | Bypass Menu</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>4052074F-1000-43E3-86F0-E5A618169D2E</string>
+				<key>modifiers</key>
+				<integer>262144</integer>
+				<key>modifiersubtext</key>
+				<string>Copy/Paste URL Directly | Bypass Menu</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>82C5E557-E391-454E-A490-2EAF22853FB7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D92BF33C-614F-4057-97C1-A9DE77A397E5</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Copy Password Directly | Bypass Menu</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>0E061607-446F-42B1-A61D-7141645CC099</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>Copy Username Directly | Bypass Menu</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>82C5E557-E391-454E-A490-2EAF22853FB7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7BAAC131-49C4-497B-B5C8-2831DBD24D66</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>86B11BB2-F440-40D5-8472-8099A8BDD571</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8F53E19D-FE8A-425D-88CE-3C088EC6D278</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D9745E2A-3260-489A-8394-234F2069ECFC</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>75198F5E-917B-4A6C-BF0C-091140474506</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8B5C36B3-321C-4FDB-90B9-48F255AB499B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E35451E7-54B1-4C83-8C9E-F9B96B0C3016</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>8F53E19D-FE8A-425D-88CE-3C088EC6D278</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D2060C49-72E1-43CE-8F43-EAAD6E3816A2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>94CBB6C8-1A78-4884-B09E-7D149D18A4D8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>8B5C36B3-321C-4FDB-90B9-48F255AB499B</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>455C3BD8-C9BD-4FDB-8A22-A05DD343467A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>57089C57-FE2F-46CE-B8EF-AA89DE97018E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>988BC641-80A7-4F29-8462-94836A76CD8A</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>18273CFC-8C6D-497B-BAC6-1983953354D0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>70BDE505-581F-418A-9056-646C50C90885</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>ECA51978-EF5B-47A3-8195-7B1ABE74A48A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>3AF0D805-468B-4B6F-8026-CB6E8D8F2CFE</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>32F72B66-664B-49CD-8E36-565FF4F64662</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>491BF767-92BB-42F4-81FF-754778E29B7D</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1B76A840-C42A-4E83-8CE2-DBF920F6E7AB</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>EAABC324-2EFE-42AA-A72C-36A56B82D598</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D3071C93-8EC0-4371-BBD9-3D2A80932B2D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99246AFC-B7C5-4DFF-9BF1-9BBE6589F303</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>12FBD320-2BCA-4186-AEED-7FE183BB71A5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>9A459034-29D0-43FE-9F0A-1B01FB14F247</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>6305EDB2-9809-4074-B448-ACA6C5A96BD4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A8FEB5EC-A1B2-4490-BE46-DF67E9D75FFB</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>94CBB6C8-1A78-4884-B09E-7D149D18A4D8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B3AAFA83-E7EB-4D37-A92B-45083BE9D555</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>283F690A-36C6-4B64-A552-EA75B23FA3EF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B99B170E-3A3C-44EC-A9B7-D6CE6E209DB7</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>75198F5E-917B-4A6C-BF0C-091140474506</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D92BF33C-614F-4057-97C1-A9DE77A397E5</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B99B170E-3A3C-44EC-A9B7-D6CE6E209DB7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E35451E7-54B1-4C83-8C9E-F9B96B0C3016</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>86B11BB2-F440-40D5-8472-8099A8BDD571</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>ECA51978-EF5B-47A3-8195-7B1ABE74A48A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>99246AFC-B7C5-4DFF-9BF1-9BBE6589F303</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>agonzalez</string>
+	<key>description</key>
+	<string>Integration for KeepassXC</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>KPass</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>_displayMenu</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>D2060C49-72E1-43CE-8F43-EAAD6E3816A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Failed to get TOTP</string>
+				<key>title</key>
+				<string>TOTP not found for entry</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8F53E19D-FE8A-425D-88CE-3C088EC6D278</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#Get the 6 digit TOTP code of a specific entry in the database if there is one using keepassxc-cli
+export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
+function get_TOTP {
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli show --key-file "${keePassKeyFile}" -q -t "${database}" "$1"
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli show -q -t "${database}" "$1"
+    fi
+}
+
+function get_errorInfo {
+    exec 3&lt;&amp;1
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+           keepassxc-cli ls -R --key-file "${keePassKeyFile}" -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+           keepassxc-cli ls -R -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
+    fi
+    exec 3&gt;&amp;-
+}
+
+data=$(get_TOTP "$1")
+if [ $? -ne 0 ]; then
+  echo $(get_errorInfo)
+else
+  echo -n $data
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>E35451E7-54B1-4C83-8C9E-F9B96B0C3016</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>Enter password to unlock</string>
+						<key>outputlabel</key>
+						<string>Go Back</string>
+						<key>uid</key>
+						<string>D9745E2A-3260-489A-8394-234F2069ECFC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>copy TOTP</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>86B11BB2-F440-40D5-8472-8099A8BDD571</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>2758F511-8CD2-4755-AA69-10159D17EC90</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:xentry}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>8B5C36B3-321C-4FDB-90B9-48F255AB499B</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>4052074F-1000-43E3-86F0-E5A618169D2E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>_displayMenu</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>7BAAC131-49C4-497B-B5C8-2831DBD24D66</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>118</integer>
+				<key>keyword</key>
+				<string>kpass</string>
+				<key>queuedelaycustom</key>
+				<integer>10</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>2</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Please loading database...</string>
+				<key>script</key>
+				<string>export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
+
+function get_db_keys {
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli search --key-file "${keePassKeyFile}" "${database}" - -q
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli search "${database}" - -q
+    fi
+}
+
+function get_keys {
+    if [ -z "${cacheFile}" ]; then
+        get_db_keys
+    else
+        # Cache is enabled
+        if [ -f "${cacheFile}" ]; then
+            lastModifiedTime=$(GetFileInfo -d "${cacheFile}")
+        else
+            lastModifiedTime=$(date +"%m/%d/%Y %H:%M:%S")
+        fi
+        lastModifiedTime=$(date -jf "%m/%d/%Y %H:%M:%S" "${lastModifiedTime}" +%s)
+        currTime=$(date +%s)
+        interval=$( expr $currTime - $lastModifiedTime )
+        if [ ! -f "${cacheFile}" ] || [ "${interval}" -gt "${cacheTimeout}" ]; then
+            # Update cache
+            echo "$(get_db_keys)" &gt; "${cacheFile}"
+        fi
+        # Get keys from the cache
+        cat "${cacheFile}" | grep -i "${query}"
+    fi
+}
+
+function get_errorInfo {
+    exec 3&lt;&amp;1
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+            keepassxc-cli search --key-file "${keePassKeyFile}" "${database}" - -q 2&gt;&amp;3
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+            keepassxc-cli search "${database}" - -q 2&gt;&amp;3
+    fi
+    exec 3&gt;&amp;-
+}
+
+if [[ -z "${database}" ]] || [[ -z "${keychain}" ]];
+then
+    echo "{\"items\": [{\"title\":\"Not configured, please run: kpassinit\"}]}";
+    exit
+fi
+
+keys=($(get_keys))
+if [ $? -ne 0 ]; then
+    info=$(get_errorInfo | sed 's/"/\\"/g')
+    info=${info//$'\n'/}
+    echo "{\"items\": [{\"title\":\"Error listing database, please check config: Error: ${info}\"}]}";
+    exit
+else
+    echo ${keys[@]} | sed 's/ \//\n\//g' | awk -v iconPath="${PWD}/icon.png" '{printf "{\"uid\":\"%s\", \"title\":\"%s\", \"subtitle\":\"%s\", \"arg\":\"%s\", \"autocomplete\": \"%s\", \"icon\":{\"type\":\"png\", \"path\": \"%s\"}}", $0, substr($0,2, length($0)), $0, $0, $0, iconPath}' | jq -c -s '{"items": .}'
+fi
+</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>KpassLoader</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>_kpass</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>2A5D5B0F-63B4-47A8-8BD4-2C9D58576D59</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>xentry</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>82C5E557-E391-454E-A490-2EAF22853FB7</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
+
+function get_keys {
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli show --key-file "${keePassKeyFile}" -q -a Password "${database}" "$1"
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli show -q -a Password "${database}" "$1"
+    fi
+}
+
+function get_errorInfo {
+    exec 3&lt;&amp;1
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+           keepassxc-cli ls -R --key-file "${keePassKeyFile}" -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+           keepassxc-cli ls -R -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
+    fi
+    exec 3&gt;&amp;-
+}
+
+
+data=$(get_keys "$1")
+if [ $? -ne 0 ]; then
+	echo $(get_errorInfo)
+else
+	echo -n $data
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B99B170E-3A3C-44EC-A9B7-D6CE6E209DB7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>75198F5E-917B-4A6C-BF0C-091140474506</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
+
+function get_username {
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli show --key-file "${keePassKeyFile}" -q -a Username "${database}" "$1"
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli show -q -a Username "${database}" "$1"
+    fi
+}
+
+function get_errorInfo {
+    exec 3&lt;&amp;1
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+           keepassxc-cli ls -R --key-file "${keePassKeyFile}" -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+           keepassxc-cli ls -R -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
+    fi
+    exec 3&gt;&amp;-
+}
+
+
+data=$(get_username "$1")
+if [ $? -ne 0 ]; then
+	echo $(get_errorInfo)
+else
+	echo -n $data
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>72E9F265-FF7B-474C-9A9C-A18348E3C9D2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:xentry}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>57089C57-FE2F-46CE-B8EF-AA89DE97018E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:xentry}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>18273CFC-8C6D-497B-BAC6-1983953354D0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>D92BF33C-614F-4057-97C1-A9DE77A397E5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<true/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>0E061607-446F-42B1-A61D-7141645CC099</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:route}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>pass</string>
+						<key>outputlabel</key>
+						<string>pass</string>
+						<key>uid</key>
+						<string>988BC641-80A7-4F29-8462-94836A76CD8A</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:route}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>user</string>
+						<key>outputlabel</key>
+						<string>user</string>
+						<key>uid</key>
+						<string>70BDE505-581F-418A-9056-646C50C90885</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:route}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>url</string>
+						<key>outputlabel</key>
+						<string>url</string>
+						<key>uid</key>
+						<string>3AF0D805-468B-4B6F-8026-CB6E8D8F2CFE</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:route}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>totp</string>
+						<key>outputlabel</key>
+						<string>totp</string>
+						<key>uid</key>
+						<string>455C3BD8-C9BD-4FDB-8A22-A05DD343467A</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:route}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>settings</string>
+						<key>outputlabel</key>
+						<string>settings</string>
+						<key>uid</key>
+						<string>491BF767-92BB-42F4-81FF-754778E29B7D</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:route}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>back</string>
+						<key>outputlabel</key>
+						<string>back</string>
+						<key>uid</key>
+						<string>EAABC324-2EFE-42AA-A72C-36A56B82D598</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>open DB</string>
+				<key>hideelse</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>94CBB6C8-1A78-4884-B09E-7D149D18A4D8</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>12FBD320-2BCA-4186-AEED-7FE183BB71A5</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>#Get the URL of a specific entry in the database
+export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
+function get_url {
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli show --key-file "${keePassKeyFile}" -q -a URL "${database}" "$1"
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
+            keepassxc-cli show -q -a URL "${database}" "$1"
+    fi
+}
+
+function get_errorInfo {
+    exec 3&lt;&amp;1
+    if [ ! -z "${keePassKeyFile}" ]; then
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+           keepassxc-cli ls -R --key-file "${keePassKeyFile}" -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
+    else
+        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
+           keepassxc-cli ls -R -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
+    fi
+    exec 3&gt;&amp;-
+}
+
+data=$(get_url "$1")
+if [ $? -ne 0 ]; then
+  echo $(get_errorInfo)
+else
+  echo -n $data
+fi</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>99246AFC-B7C5-4DFF-9BF1-9BBE6589F303</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>_displayMenu</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>9A459034-29D0-43FE-9F0A-1B01FB14F247</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"Password","arg":"pass","subtitle":"Copy The Password 🔐 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"Username","arg":"user","subtitle":"Copy The Username 🔐 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"URL","arg":"url","subtitle":"Copy URL in Front App 🌎 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"TOTP Code","arg":"totp","subtitle":"Copy the 6 digit TOTP code 🚦 {var:xentry}"},{"imagefile":"7f90844dbe74bce6b23ef4d1efdb60e666f4f744.png","title":"Open Databse in KeePassXC","arg":"database","subtitle":"{var:database}"},{"imagefile":"283ea61ad84289b2778e711013dd8f4a986a18b8.png","title":"Settings","arg":"settings","subtitle":"Edit Settings"},{"imagefile":"f14e77e0e9cd66bcea6195b7693ba50a93cdb51f.png","title":"{var:goBack} Go Back","arg":"back","subtitle":"Start Over"}]</string>
+				<key>matchmode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string>{var:xentry}</string>
+				<key>title</key>
+				<string>Menu Options</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>6305EDB2-9809-4074-B448-ACA6C5A96BD4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>{var:xentry}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>ECA51978-EF5B-47A3-8195-7B1ABE74A48A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>_settings</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>32F72B66-664B-49CD-8E36-565FF4F64662</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>route</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A8FEB5EC-A1B2-4490-BE46-DF67E9D75FFB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>_kpass</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>1B76A840-C42A-4E83-8CE2-DBF920F6E7AB</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>{var:database}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>D3071C93-8EC0-4371-BBD9-3D2A80932B2D</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>kpassinit</string>
+				<key>subtext</key>
+				<string>Configure the kpass integration</string>
+				<key>text</key>
+				<string>KPass Setup</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>283F690A-36C6-4B64-A552-EA75B23FA3EF</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>ObjC.import('stdlib');
+
+var app = Application.currentApplication()
+app.includeStandardAdditions = true;
+
+var alfredApp = Application('com.runningwithcrayons.Alfred');
+var bundleId = $.getenv('alfred_workflow_bundleid')
+var keychainItem = $.getenv('keychainItem')
+
+if (! keychainItem) {
+    keychainItem = "KPass_AlfredWorkflow"
+}
+
+
+try {
+    // Ask for KeepasxXC Database
+    var database = app.chooseFile({
+        withPrompt: "Please select the KeepassXC database to use:",
+        multipleSelectionsAllowed: false,
+        // ofType: ["dyn.ah62d4rv4ge8003dcta"] //.kdbx extension type identifier
+    })
+	// ofType was found with the osascript (AS):
+	// set dbFile to choose file with prompt "Select .kdbx file:"
+	// info for dbFile
+
+    // Ask for a keychain
+    var keychains = app.doShellScript("security list-keychains -d user | awk '{print substr($1, 2, length($1) - 2);}'").split('\r')
+    var keychain = app.chooseFromList(keychains, {
+        withPrompt: "Select the keychain to store the password:",
+        emptySelectionAllowed: false,
+        multipleSelectionAllowed: false
+    });
+	keychain = keychain[0]
+
+    // Ask for KeepassXC Database password
+    var response = app.displayDialog("KeePassXC Database password", {
+        defaultAnswer: "",
+        buttons: ["Cancel", "Continue"],
+        defaultButton: "Continue",
+        hiddenAnswer: true,
+        withTitle: "Please introduce the Database Password",
+        withIcon: Path("/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/Lockedicon.icns")
+    });
+
+    // Get password and esscape it
+    password = response.textReturned.replace(/\\/g, '\\\\').replace(/\"/g, '\\"');
+    
+    // Create a new password
+    response = app.doShellScript("security add-generic-password -a $(id -un) -c 'kaiw' -C 'kaiw' -D 'KeepasXC Integration' -j 'Alfred KeepasXC Integration Database' -s '"+ keychainItem + "' -w '" + password + "' -U " + keychain);
+
+    // Ask for KeepassXC Keyfile
+    var response = app.displayDialog("KeePassXC Database Keyfile", {
+        defaultAnswer: "",
+        buttons: ["Cancel", "Continue"],
+        defaultButton: "Continue",
+        hiddenAnswer: false,
+        withTitle: "[Optionally] Please introduce the path of the keyfile",
+        withIcon: Path("/System/Library/CoreServices/CoreTypes.bundle/Contents/Resources/Lockedicon.icns")
+    });
+
+    // Get keyfile if any
+    keePassKeyFile = response.textReturned.replace(/\\/g, '\\\\').replace(/\"/g, '\\"');
+
+    // Configure Alfred env variables
+    alfredApp.setConfiguration('keychain', {
+        toValue: keychain.replace(/(^")|("$)/,""),
+        inWorkflow: bundleId,
+        exportable: false
+    });
+    
+    alfredApp.setConfiguration('keychainItem', {
+        toValue: keychainItem.toString(),
+        inWorkflow: bundleId,
+        exportable: true
+    });
+    
+    alfredApp.setConfiguration('keePassKeyFile', {
+        toValue: keePassKeyFile.toString(),
+        inWorkflow: bundleId,
+        exportable: false
+    });
+
+    alfredApp.setConfiguration('database', {
+        toValue: database.toString(),
+        inWorkflow: bundleId,
+        exportable: false
+    });
+
+    // Done
+    app.displayDialog("KPass Workflow configured correctly", {
+		buttons: ["Ok"],
+		defaultButton: "Ok"
+	});
+    //    displayAlert: 	});
+
+}
+catch (err) {
+    app.displayDialog("KPass Workflow could not be configured: "+ err.message, {
+		buttons: ["Ok"],
+		defaultButton: "Ok"
+	});
+}</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>7</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>80C0730D-9C4C-4D46-8AC5-EE827B744F5B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>availableviaurlhandler</key>
+				<false/>
+				<key>triggerid</key>
+				<string>_settings</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>B3AAFA83-E7EB-4D37-A92B-45083BE9D555</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># KPass - An Alfred KeePassXC Workflow
+This workflow enables to retreive passwords from a KeePassXC database.
+## Get KeePassXC - https://keepassxc.org/download/
+
+The workflow uses the keepassxc-cli to interact with KeePassXC.
+
+The CLI is accessable just by having KeePassXC installed.
+
+Password is stored in Keychain for automatic usage.
+- 🚨 Security Issue - (Anyone authenticated on current user can open DB!!!)
+- 📋 Todo: Trigger TouchID event to authenticate with timeout.
+
+## Select entry and press ⏎ to use default menu options:
+- Copy Password
+- Copy Username
+- Copy TOTP
+- Copy URL
+- Open Database in KeePassXC
+- Settings
+
+# Shortcuts:
+### ⌘ - Copy Password Directly  | Bypass Menu
+### ⇧ - Copy Username Directly  | Bypass Menu
+### ⌥ - Copy TOTP Code Directly | Bypass Menu
+### ⌃ - Copy/Paste URL Directly | Bypass Menu
+
+# Changes
+Menu, TOTP, URL added by CDoug.</string>
+	<key>uidata</key>
+	<dict>
+		<key>0E061607-446F-42B1-A61D-7141645CC099</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>290</real>
+		</dict>
+		<key>12FBD320-2BCA-4186-AEED-7FE183BB71A5</key>
+		<dict>
+			<key>note</key>
+			<string>Copy/Paste &gt; Front App</string>
+			<key>xpos</key>
+			<real>950</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>18273CFC-8C6D-497B-BAC6-1983953354D0</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<real>990</real>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>1B76A840-C42A-4E83-8CE2-DBF920F6E7AB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>560</real>
+			<key>ypos</key>
+			<real>445</real>
+		</dict>
+		<key>2758F511-8CD2-4755-AA69-10159D17EC90</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>283F690A-36C6-4B64-A552-EA75B23FA3EF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>175</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>2A5D5B0F-63B4-47A8-8BD4-2C9D58576D59</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>32F72B66-664B-49CD-8E36-565FF4F64662</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>580</real>
+			<key>ypos</key>
+			<real>415</real>
+		</dict>
+		<key>4052074F-1000-43E3-86F0-E5A618169D2E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>100</real>
+		</dict>
+		<key>57089C57-FE2F-46CE-B8EF-AA89DE97018E</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>780</real>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>6305EDB2-9809-4074-B448-ACA6C5A96BD4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>175</real>
+			<key>ypos</key>
+			<real>385</real>
+		</dict>
+		<key>72E9F265-FF7B-474C-9A9C-A18348E3C9D2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>note</key>
+			<string>Username</string>
+			<key>xpos</key>
+			<real>1030</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>75198F5E-917B-4A6C-BF0C-091140474506</key>
+		<dict>
+			<key>note</key>
+			<string>copy attribute</string>
+			<key>xpos</key>
+			<real>1290</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>7BAAC131-49C4-497B-B5C8-2831DBD24D66</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>7DD3BDE5-A157-42E5-9376-F681FB50A4EE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>9</integer>
+			<key>xpos</key>
+			<real>175</real>
+			<key>ypos</key>
+			<real>145</real>
+		</dict>
+		<key>80C0730D-9C4C-4D46-8AC5-EE827B744F5B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>82C5E557-E391-454E-A490-2EAF22853FB7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>330</real>
+			<key>ypos</key>
+			<real>175</real>
+		</dict>
+		<key>86B11BB2-F440-40D5-8472-8099A8BDD571</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>950</real>
+			<key>ypos</key>
+			<real>50</real>
+		</dict>
+		<key>8B5C36B3-321C-4FDB-90B9-48F255AB499B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>xpos</key>
+			<real>780</real>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>8F53E19D-FE8A-425D-88CE-3C088EC6D278</key>
+		<dict>
+			<key>xpos</key>
+			<real>1160</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>94CBB6C8-1A78-4884-B09E-7D149D18A4D8</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>425</real>
+			<key>ypos</key>
+			<real>330</real>
+		</dict>
+		<key>99246AFC-B7C5-4DFF-9BF1-9BBE6589F303</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>URL</string>
+			<key>xpos</key>
+			<real>820</real>
+			<key>ypos</key>
+			<real>355</real>
+		</dict>
+		<key>9A459034-29D0-43FE-9F0A-1B01FB14F247</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>385</real>
+		</dict>
+		<key>A8FEB5EC-A1B2-4490-BE46-DF67E9D75FFB</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>415</real>
+		</dict>
+		<key>B3AAFA83-E7EB-4D37-A92B-45083BE9D555</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>1</integer>
+			<key>xpos</key>
+			<real>30</real>
+			<key>ypos</key>
+			<real>565</real>
+		</dict>
+		<key>B99B170E-3A3C-44EC-A9B7-D6CE6E209DB7</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>note</key>
+			<string>Password</string>
+			<key>xpos</key>
+			<real>820</real>
+			<key>ypos</key>
+			<real>220</real>
+		</dict>
+		<key>D2060C49-72E1-43CE-8F43-EAAD6E3816A2</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>xpos</key>
+			<real>1290</real>
+			<key>ypos</key>
+			<real>15</real>
+		</dict>
+		<key>D3071C93-8EC0-4371-BBD9-3D2A80932B2D</key>
+		<dict>
+			<key>note</key>
+			<string>Open DB in KeePassXC</string>
+			<key>xpos</key>
+			<real>820</real>
+			<key>ypos</key>
+			<real>480</real>
+		</dict>
+		<key>D92BF33C-614F-4057-97C1-A9DE77A397E5</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>370</real>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+		<key>E35451E7-54B1-4C83-8C9E-F9B96B0C3016</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>TOTP Code</string>
+			<key>xpos</key>
+			<real>820</real>
+			<key>ypos</key>
+			<real>30</real>
+		</dict>
+		<key>ECA51978-EF5B-47A3-8195-7B1ABE74A48A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>780</real>
+			<key>ypos</key>
+			<real>385</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>0</integer>
+				<key>placeholder</key>
+				<string>Select_Your_Database.kdbx</string>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>KeePassDB File .kdbx</string>
+			<key>label</key>
+			<string>database</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>database</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>0</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>KeePassDB File .kdbx</string>
+			<key>label</key>
+			<string>database2</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>database_2</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>0</integer>
+				<key>placeholder</key>
+				<string>Select your KeyFile1</string>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>This corrisponds to KDB1 if your database uses one.</string>
+			<key>label</key>
+			<string>keePassKeyFile</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>keePassKeyFile</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>filtermode</key>
+				<integer>0</integer>
+				<key>placeholder</key>
+				<string>Select your KeyFile2</string>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>This corrisponds to KDB2 if your database uses one.</string>
+			<key>label</key>
+			<string>keePassKeyFile2</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>keePassKeyFile_2</string>
+		</dict>
+	</array>
+	<key>variables</key>
+	<dict>
+		<key>cacheFile</key>
+		<string></string>
+		<key>cacheTimeout</key>
+		<string>60</string>
+		<key>database_2_old</key>
+		<string></string>
+		<key>database_old</key>
+		<string>/Users/cdoug/Dropbox/Web/WebShareRMWP/RMWP-Web.kdbx</string>
+		<key>keePassKeyFile_2_old</key>
+		<string></string>
+		<key>keePassKeyFile_old</key>
+		<string></string>
+		<key>keychain</key>
+		<string>/Users/cdoug/Library/Keychains/login.keychain-db</string>
+		<key>keychainItem</key>
+		<string>KPass_AlfredWorkflow</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>keePassKeyFile_old</string>
+		<string>cacheFile</string>
+		<string>database_2_old</string>
+		<string>keePassKeyFile_2_old</string>
+		<string>keychain</string>
+		<string>database_old</string>
+	</array>
+	<key>version</key>
+	<string>2.7</string>
+	<key>webaddress</key>
+	<string>https://github.com/Angoll/KPass</string>
+</dict>
+</plist>
