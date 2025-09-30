@@ -4,7 +4,26 @@
 
 ![Screenshot](https://github.com/Angoll/KPass/blob/master/example.gif)
 
-## Features
+## New Features
+
+## Select entry and press ⏎ to use default menu options:
+- Copy Password
+- Copy Username
+- Copy TOTP
+- Copy URL
+- Open Database in KeePassXC
+- Settings
+
+# Shortcuts:
+### ⌘ - Copy Password Directly  | Bypass Menu
+### ⇧ - Copy Username Directly  | Bypass Menu
+### ⌥ - Copy TOTP Code Directly | Bypass Menu
+### ⌃ - Copy/Paste URL Directly | Bypass Menu
+
+# Changes
+Menu, TOTP, URL added by CDoug.
+
+## Previous Features
 
 - List all entries from a KeePassXC database
 - Get the password for the selected entry, and put it in the clipboard
@@ -23,7 +42,9 @@
 - jq installed  ( <https://stedolan.github.io/jq/download/> )
 
 #### Configuration
-
+Configure the workflow by either:
+Selecting "Configure Workflow" from the workflow menu in Alfred and choosing your KeePassXC database to use.
+- or -
 Run **kpassinit** KPass Setup and follow the instructions:
 
 1. Select the KeePassXC database file
