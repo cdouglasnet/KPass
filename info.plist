@@ -1271,8 +1271,15 @@ Password is stored in Keychain for automatic usage.
 ### ⌥ - Copy TOTP Code Directly | Bypass Menu
 ### ⌃ - Copy/Paste URL Directly | Bypass Menu
 
-# Changes
-Menu, TOTP, URL added by CDoug.</string>
+# v2.7.0 Changes
+Menu, TOTP, URL added by CDoug.
+
+# v2.7.1 Changes
+- Caching now has Configuration options and is working.
+- Username is also cached as this is a lengthy call. (needs optimization)
+- cacheFile defaults to ~/Library/Caches/kpass.cache but can be changed
+- Slider for cacheTimeout
+- Simplified error notification</string>
 	<key>uidata</key>
 	<dict>
 		<key>0E061607-446F-42B1-A61D-7141645CC099</key>
