@@ -116,7 +116,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75198F5E-917B-4A6C-BF0C-091140474506</string>
+				<string>86B11BB2-F440-40D5-8472-8099A8BDD571</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -331,7 +331,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>12FBD320-2BCA-4186-AEED-7FE183BB71A5</string>
+				<string>86B11BB2-F440-40D5-8472-8099A8BDD571</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -383,7 +383,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>75198F5E-917B-4A6C-BF0C-091140474506</string>
+				<string>86B11BB2-F440-40D5-8472-8099A8BDD571</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -445,81 +445,12 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>externaltriggerid</key>
-				<string>_displayMenu</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>D2060C49-72E1-43CE-8F43-EAAD6E3816A2</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>Failed to get TOTP</string>
-				<key>title</key>
-				<string>TOTP not found for entry</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>8F53E19D-FE8A-425D-88CE-3C088EC6D278</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>#Get the 6 digit TOTP code of a specific entry in the database if there is one using keepassxc-cli
-export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
-function get_TOTP {
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli show --key-file "${keePassKeyFile}" -q -t "${database}" "$1"
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli show -q -t "${database}" "$1"
-    fi
-}
-
-function get_errorInfo {
-    exec 3&lt;&amp;1
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-           keepassxc-cli ls -R --key-file "${keePassKeyFile}" -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-           keepassxc-cli ls -R -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
-    fi
-    exec 3&gt;&amp;-
-}
-
-data=$(get_TOTP "$1")
-if [ $? -ne 0 ]; then
-  echo $(get_errorInfo)
-else
-  echo -n $data
-fi</string>
+				<string>scripts/getTOTP.sh "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -533,38 +464,6 @@ fi</string>
 			<string>E35451E7-54B1-4C83-8C9E-F9B96B0C3016</string>
 			<key>version</key>
 			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>4</integer>
-						<key>matchstring</key>
-						<string>Enter password to unlock</string>
-						<key>outputlabel</key>
-						<string>Go Back</string>
-						<key>uid</key>
-						<string>D9745E2A-3260-489A-8394-234F2069ECFC</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>copy TOTP</string>
-				<key>hideelse</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>86B11BB2-F440-40D5-8472-8099A8BDD571</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -632,6 +531,46 @@ fi</string>
 			<key>type</key>
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
+			<string>D2060C49-72E1-43CE-8F43-EAAD6E3816A2</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Failed to get {var:route}</string>
+				<key>title</key>
+				<string>{var:route} not found for entry</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>8F53E19D-FE8A-425D-88CE-3C088EC6D278</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>_displayMenu</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
 			<string>7BAAC131-49C4-497B-B5C8-2831DBD24D66</string>
 			<key>version</key>
 			<integer>1</integer>
@@ -662,72 +601,11 @@ fi</string>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Please loading database...</string>
+				<string>Decrypting Database... This may take a moment</string>
 				<key>script</key>
-				<string>export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
-
-function get_db_keys {
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli search --key-file "${keePassKeyFile}" "${database}" - -q
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli search "${database}" - -q
-    fi
-}
-
-function get_keys {
-    if [ -z "${cacheFile}" ]; then
-        get_db_keys
-    else
-        # Cache is enabled
-        if [ -f "${cacheFile}" ]; then
-            lastModifiedTime=$(GetFileInfo -d "${cacheFile}")
-        else
-            lastModifiedTime=$(date +"%m/%d/%Y %H:%M:%S")
-        fi
-        lastModifiedTime=$(date -jf "%m/%d/%Y %H:%M:%S" "${lastModifiedTime}" +%s)
-        currTime=$(date +%s)
-        interval=$( expr $currTime - $lastModifiedTime )
-        if [ ! -f "${cacheFile}" ] || [ "${interval}" -gt "${cacheTimeout}" ]; then
-            # Update cache
-            echo "$(get_db_keys)" &gt; "${cacheFile}"
-        fi
-        # Get keys from the cache
-        cat "${cacheFile}" | grep -i "${query}"
-    fi
-}
-
-function get_errorInfo {
-    exec 3&lt;&amp;1
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-            keepassxc-cli search --key-file "${keePassKeyFile}" "${database}" - -q 2&gt;&amp;3
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-            keepassxc-cli search "${database}" - -q 2&gt;&amp;3
-    fi
-    exec 3&gt;&amp;-
-}
-
-if [[ -z "${database}" ]] || [[ -z "${keychain}" ]];
-then
-    echo "{\"items\": [{\"title\":\"Not configured, please run: kpassinit\"}]}";
-    exit
-fi
-
-keys=($(get_keys))
-if [ $? -ne 0 ]; then
-    info=$(get_errorInfo | sed 's/"/\\"/g')
-    info=${info//$'\n'/}
-    echo "{\"items\": [{\"title\":\"Error listing database, please check config: Error: ${info}\"}]}";
-    exit
-else
-    echo ${keys[@]} | sed 's/ \//\n\//g' | awk -v iconPath="${PWD}/icon.png" '{printf "{\"uid\":\"%s\", \"title\":\"%s\", \"subtitle\":\"%s\", \"arg\":\"%s\", \"autocomplete\": \"%s\", \"icon\":{\"type\":\"png\", \"path\": \"%s\"}}", $0, substr($0,2, length($0)), $0, $0, $0, iconPath}' | jq -c -s '{"items": .}'
-fi
-</string>
+				<string>scripts/listDatabase.sh</string>
 				<key>scriptargtype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
@@ -789,37 +667,7 @@ fi
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
-
-function get_keys {
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli show --key-file "${keePassKeyFile}" -q -a Password "${database}" "$1"
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli show -q -a Password "${database}" "$1"
-    fi
-}
-
-function get_errorInfo {
-    exec 3&lt;&amp;1
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-           keepassxc-cli ls -R --key-file "${keePassKeyFile}" -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-           keepassxc-cli ls -R -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
-    fi
-    exec 3&gt;&amp;-
-}
-
-
-data=$(get_keys "$1")
-if [ $? -ne 0 ]; then
-	echo $(get_errorInfo)
-else
-	echo -n $data
-fi</string>
+				<string>scripts/getPassword.sh "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -831,6 +679,29 @@ fi</string>
 			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
 			<string>B99B170E-3A3C-44EC-A9B7-D6CE6E209DB7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>scripts/getUsername.sh "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>72E9F265-FF7B-474C-9A9C-A18348E3C9D2</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -856,55 +727,34 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>Enter password to unlock</string>
+						<key>outputlabel</key>
+						<string>Go Back</string>
+						<key>uid</key>
+						<string>D9745E2A-3260-489A-8394-234F2069ECFC</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>copy Value</string>
+				<key>hideelse</key>
 				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
-
-function get_username {
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli show --key-file "${keePassKeyFile}" -q -a Username "${database}" "$1"
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli show -q -a Username "${database}" "$1"
-    fi
-}
-
-function get_errorInfo {
-    exec 3&lt;&amp;1
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-           keepassxc-cli ls -R --key-file "${keePassKeyFile}" -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-           keepassxc-cli ls -R -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
-    fi
-    exec 3&gt;&amp;-
-}
-
-
-data=$(get_username "$1")
-if [ $? -ne 0 ]; then
-	echo $(get_errorInfo)
-else
-	echo -n $data
-fi</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>72E9F265-FF7B-474C-9A9C-A18348E3C9D2</string>
+			<string>86B11BB2-F440-40D5-8472-8099A8BDD571</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -987,7 +837,7 @@ fi</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>pass</string>
+						<string>Password</string>
 						<key>outputlabel</key>
 						<string>pass</string>
 						<key>uid</key>
@@ -1001,7 +851,7 @@ fi</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>user</string>
+						<string>Username</string>
 						<key>outputlabel</key>
 						<string>user</string>
 						<key>uid</key>
@@ -1015,7 +865,7 @@ fi</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>url</string>
+						<string>URL</string>
 						<key>outputlabel</key>
 						<string>url</string>
 						<key>uid</key>
@@ -1029,7 +879,7 @@ fi</string>
 						<key>matchmode</key>
 						<integer>0</integer>
 						<key>matchstring</key>
-						<string>totp</string>
+						<string>TOTP</string>
 						<key>outputlabel</key>
 						<string>totp</string>
 						<key>uid</key>
@@ -1079,60 +929,12 @@ fi</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<true/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>ignoredynamicplaceholders</key>
-				<false/>
-				<key>transient</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>12FBD320-2BCA-4186-AEED-7FE183BB71A5</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>#Get the URL of a specific entry in the database
-export PATH='/bin:/usr/local/bin/:/usr/bin:/Applications/KeePassXC.app/Contents/MacOS/:/opt/homebrew/bin:${PATH}'
-function get_url {
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli show --key-file "${keePassKeyFile}" -q -a URL "${database}" "$1"
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" |\
-            keepassxc-cli show -q -a URL "${database}" "$1"
-    fi
-}
-
-function get_errorInfo {
-    exec 3&lt;&amp;1
-    if [ ! -z "${keePassKeyFile}" ]; then
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-           keepassxc-cli ls -R --key-file "${keePassKeyFile}" -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
-    else
-        security find-generic-password -a $(id -un) -c 'kpas' -C 'kpas' -s "${keychainItem}" -w "${keychain}" 2&gt;&amp;3 |\
-           keepassxc-cli ls -R -f "$database" 2&gt;&amp;3 | grep -Ev '(/|\[empty\]?)$'
-    fi
-    exec 3&gt;&amp;-
-}
-
-data=$(get_url "$1")
-if [ $? -ne 0 ]; then
-  echo $(get_errorInfo)
-else
-  echo -n $data
-fi</string>
+				<string>scripts/getURL.sh "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
@@ -1172,7 +974,7 @@ fi</string>
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"Password","arg":"pass","subtitle":"Copy The Password 🔐 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"Username","arg":"user","subtitle":"Copy The Username 🔐 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"URL","arg":"url","subtitle":"Copy URL in Front App 🌎 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"TOTP Code","arg":"totp","subtitle":"Copy the 6 digit TOTP code 🚦 {var:xentry}"},{"imagefile":"7f90844dbe74bce6b23ef4d1efdb60e666f4f744.png","title":"Open Databse in KeePassXC","arg":"database","subtitle":"{var:database}"},{"imagefile":"283ea61ad84289b2778e711013dd8f4a986a18b8.png","title":"Settings","arg":"settings","subtitle":"Edit Settings"},{"imagefile":"f14e77e0e9cd66bcea6195b7693ba50a93cdb51f.png","title":"{var:goBack} Go Back","arg":"back","subtitle":"Start Over"}]</string>
+				<string>[{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"Password","arg":"Password","subtitle":"Copy The Password 🔐 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"Username","arg":"Username","subtitle":"Copy The Username 🔐 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"URL","arg":"URL","subtitle":"Copy URL in Front App 🌎 {var:xentry}"},{"imagefile":"f5384a9f3b5c25866e7a9d3ae7695edc5314091c.png","title":"TOTP Code","arg":"TOTP","subtitle":"Copy the 6 digit TOTP code 🚦 {var:xentry}"},{"imagefile":"7f90844dbe74bce6b23ef4d1efdb60e666f4f744.png","title":"Open Databse in KeePassXC","arg":"database","subtitle":"{var:database}"},{"imagefile":"283ea61ad84289b2778e711013dd8f4a986a18b8.png","title":"Settings","arg":"settings","subtitle":"Edit Settings"},{"imagefile":"f14e77e0e9cd66bcea6195b7693ba50a93cdb51f.png","title":"{var:goBack} Go Back","arg":"back","subtitle":"Start Over"}]</string>
 				<key>matchmode</key>
 				<integer>2</integer>
 				<key>runningsubtext</key>
@@ -1482,15 +1284,6 @@ Menu, TOTP, URL added by CDoug.</string>
 			<key>ypos</key>
 			<real>290</real>
 		</dict>
-		<key>12FBD320-2BCA-4186-AEED-7FE183BB71A5</key>
-		<dict>
-			<key>note</key>
-			<string>Copy/Paste &gt; Front App</string>
-			<key>xpos</key>
-			<real>950</real>
-			<key>ypos</key>
-			<real>355</real>
-		</dict>
 		<key>18273CFC-8C6D-497B-BAC6-1983953354D0</key>
 		<dict>
 			<key>colorindex</key>
@@ -1588,9 +1381,9 @@ Menu, TOTP, URL added by CDoug.</string>
 			<key>note</key>
 			<string>copy attribute</string>
 			<key>xpos</key>
-			<real>1290</real>
+			<real>1330</real>
 			<key>ypos</key>
-			<real>220</real>
+			<real>235</real>
 		</dict>
 		<key>7BAAC131-49C4-497B-B5C8-2831DBD24D66</key>
 		<dict>
@@ -1633,9 +1426,9 @@ Menu, TOTP, URL added by CDoug.</string>
 			<key>colorindex</key>
 			<integer>3</integer>
 			<key>xpos</key>
-			<real>950</real>
+			<real>1180</real>
 			<key>ypos</key>
-			<real>50</real>
+			<real>240</real>
 		</dict>
 		<key>8B5C36B3-321C-4FDB-90B9-48F255AB499B</key>
 		<dict>
@@ -1649,9 +1442,9 @@ Menu, TOTP, URL added by CDoug.</string>
 		<key>8F53E19D-FE8A-425D-88CE-3C088EC6D278</key>
 		<dict>
 			<key>xpos</key>
-			<real>1160</real>
+			<real>1330</real>
 			<key>ypos</key>
-			<real>15</real>
+			<real>120</real>
 		</dict>
 		<key>94CBB6C8-1A78-4884-B09E-7D149D18A4D8</key>
 		<dict>
@@ -1716,9 +1509,9 @@ Menu, TOTP, URL added by CDoug.</string>
 			<key>colorindex</key>
 			<integer>10</integer>
 			<key>xpos</key>
-			<real>1290</real>
+			<real>1460</real>
 			<key>ypos</key>
-			<real>15</real>
+			<real>120</real>
 		</dict>
 		<key>D3071C93-8EC0-4371-BBD9-3D2A80932B2D</key>
 		<dict>
@@ -1845,12 +1638,77 @@ Menu, TOTP, URL added by CDoug.</string>
 			<key>variable</key>
 			<string>keePassKeyFile_2</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+			</dict>
+			<key>description</key>
+			<string>Turn Caching on or off (Username as Subtitle on with cache)</string>
+			<key>label</key>
+			<string>Cache Enabled</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>cacheEnabled</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>defaultvalue</key>
+				<integer>60</integer>
+				<key>markercount</key>
+				<integer>31</integer>
+				<key>maxvalue</key>
+				<integer>6000</integer>
+				<key>minvalue</key>
+				<integer>0</integer>
+				<key>onlystoponmarkers</key>
+				<false/>
+				<key>showmarkers</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>Cache to expire in # Seconds</string>
+			<key>label</key>
+			<string>Cache Timeout</string>
+			<key>type</key>
+			<string>slider</string>
+			<key>variable</key>
+			<string>cacheTimeout</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string>~/Library/Caches/kpass.cache</string>
+				<key>filtermode</key>
+				<integer>0</integer>
+				<key>placeholder</key>
+				<string></string>
+				<key>required</key>
+				<false/>
+			</dict>
+			<key>description</key>
+			<string>Can be custom set (Defaults to ~/Library/Caches/kpass.cache)</string>
+			<key>label</key>
+			<string>cacheFile</string>
+			<key>type</key>
+			<string>filepicker</string>
+			<key>variable</key>
+			<string>cacheFile</string>
+		</dict>
 	</array>
 	<key>variables</key>
 	<dict>
-		<key>cacheFile</key>
+		<key>cacheFile_old</key>
 		<string></string>
-		<key>cacheTimeout</key>
+		<key>cacheTimeout_old</key>
 		<string>60</string>
 		<key>database_2_old</key>
 		<string></string>
@@ -1867,15 +1725,15 @@ Menu, TOTP, URL added by CDoug.</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
+		<string>cacheFile_old</string>
 		<string>keePassKeyFile_old</string>
-		<string>cacheFile</string>
 		<string>database_2_old</string>
 		<string>keePassKeyFile_2_old</string>
 		<string>keychain</string>
 		<string>database_old</string>
 	</array>
 	<key>version</key>
-	<string>2.7</string>
+	<string>2.7.1</string>
 	<key>webaddress</key>
 	<string>https://github.com/Angoll/KPass</string>
 </dict>
